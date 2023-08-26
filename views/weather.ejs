@@ -26,8 +26,6 @@
           <p>Cloudiness: <%= weatherData.clouds.all %>%</p>
           <p>Pressure: <%= weatherData.main.pressure %> hPa</p>
           <p>Visibility: <%= weatherData.visibility %> meters</p>
-          <p>Sunrise Time: <%= new Date(weatherData.sys.sunrise * 1000).toLocaleTimeString() %></p>
-          <p>Sunset Time: <%= new Date(weatherData.sys.sunset * 1000).toLocaleTimeString() %></p>
         </div>
       </div>
     <% } else { %>
