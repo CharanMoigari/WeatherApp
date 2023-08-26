@@ -1,0 +1,86 @@
+/* styles.css */
+
+/* Set the background image for the whole page */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://images.unsplash.com/photo-1496450681664-3df85efbd29f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHdlYXRoZXJ8ZW58MHx8MHx8fDA%3D&w=1000&q=80');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  font-family: Arial, sans-serif;
+}
+
+/* Style for the weather-app container */
+.weather-app {
+  text-align: center;
+  padding: 20px;
+  background-color: transparent; /* No background color */
+}
+
+/* Style for the h1 element */
+.weather-app h1 {
+  color: #333;
+  padding: 10px; /* Add padding to separate from background */
+}
+
+/* Style for the form */
+.weather-app form {
+  margin-top: 20px;
+  
+}
+
+/* Style for the form label */
+.weather-app label {
+  font-weight: bold;
+  font-size: large;
+}
+
+/* Style for the form input */
+.weather-app input[type="text"] {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Style for the form button */
+.weather-app button {
+  font-size: medium;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Style for the weather-info container */
+.weather-info {
+  margin-top: 20px;
+  padding: 10px; /* Add padding to separate from background */
+}
+
+/* Style for the more-info button */
+.more-info {
+  
+  font-size: medium;
+ margin-top: 10px;
+  padding: 3px 6px;
+  background-color: #555;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Style for the extra-info container */
+.extra-info {
+  display: none;
+  margin-top: 10px;
+  padding: 10px;
+}
+.extra-info p{
+  font-size: 20px;
+}
+.weather-info p{
+  font-size: 20px;
+}
