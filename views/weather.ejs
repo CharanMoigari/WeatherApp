@@ -18,7 +18,7 @@
       <div class="weather-info">
         <h2>Weather in <%= weatherData.name %></h2>
         <p>Temperature: <%= weatherData.main.temp %>°C</p>
-        <p>Weather: <%= weatherData.weather[0].description %></p>
+        <p>Weather Condition: <%= weatherData.weather[0].description %></p>
         <button class="more-info">More Info</button>
         <div class="extra-info">
           <p>Humidity: <%= weatherData.main.humidity %>%</p>
@@ -31,7 +31,7 @@
         </div>
       </div>
     <% } else { %>
-      <p>No weather data available.</p>
+      <p>Enter The City Name.</p>
     <% } %>
   </div>
   

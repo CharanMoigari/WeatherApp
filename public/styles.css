@@ -5,7 +5,7 @@ body {
   margin: 0;
   padding: 0;
   background-image: url('https://images.unsplash.com/photo-1496450681664-3df85efbd29f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHdlYXRoZXJ8ZW58MHx8MHx8fDA%3D&w=1000&q=80');
-  background-size: cover;
+  background-size:cover;
   background-repeat: no-repeat;
   background-position: center center;
   font-family: Arial, sans-serif;
@@ -14,14 +14,15 @@ body {
 /* Style for the weather-app container */
 .weather-app {
   text-align: center;
-  padding: 20px;
+  padding: 40px;
   background-color: transparent; /* No background color */
 }
 
 /* Style for the h1 element */
 .weather-app h1 {
+  font-size: 70px;
   color: #333;
-  padding: 10px; /* Add padding to separate from background */
+  padding: 4px; /* Add padding to separate from background */
 }
 
 /* Style for the form */
@@ -33,7 +34,7 @@ body {
 /* Style for the form label */
 .weather-app label {
   font-weight: bold;
-  font-size: large;
+  font-size: 20px;
 }
 
 /* Style for the form input */
@@ -41,6 +42,7 @@ body {
   padding: 5px;
   border: 1px solid #ccc;
   border-radius: 3px;
+  font-size: large;
 }
 
 /* Style for the form button */
@@ -80,7 +82,12 @@ body {
 }
 .extra-info p{
   font-size: 20px;
+  font-style: oblique;
 }
 .weather-info p{
   font-size: 20px;
+  font-style: oblique;
+}
+.weather-app p{
+  font-size: large;
 }
